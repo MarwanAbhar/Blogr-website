@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;600&display=swap');
+
+:root {
+    --lightred: hsl(356, 100%, 66%);
+    --heading: hsl(208, 49%, 24%);
+    --hoverred: hsl(355, 100%, 74%)
+}
+
+/* basic styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass';
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utility classes */
+
+.text-center {
+    text-align: center;
+}
+
+.nav-section {
+    background-image: url("../assets/bg-pattern-intro.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 282vh;
+    background-position: 36% 35%;
+    border-bottom-left-radius: 30%;
+    background-color: hsl(353, 100%, 62%);
+    
+
+}
+
+#hamburger-icon {
+    width: 60px;
+}
+
+.mobile-nav {
+    float: right;
+}
+
+.logo-text {
+    color: #fff;
+}
+
+.desktop-nav {
+    display: none;
+}
